@@ -1,10 +1,10 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  //host: 'scrollpeerjs.herokuapp.com',
-  //port: '443'
-  host: '/',
-  port: '3001'
+  host: 'scrollpeerjs.herokuapp.com',
+  port: '443'
+  //host: '/',
+  //port: '3001'
 })
 let myVideoStream;
 let currentPeer;
