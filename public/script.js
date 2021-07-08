@@ -68,7 +68,7 @@ function addVideoStream(video, stream) {
 }
 
 const endCall = () => {
-  alert("Currently working on this feature");
+  alertify.alert("Currently working on this feature");
 }
 
 document.getElementById("shareScreen").addEventListener('click', (e) => {
